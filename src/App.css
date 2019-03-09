@@ -1,0 +1,211 @@
+html {
+  height: 100vh; 
+  background: linear-gradient(rgb(255, 255, 255), rgb(83, 3, 148)); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.App {
+  text-align: center; 
+  font-family: Charmonman, cursive;
+  color: white; 
+}
+
+h1 {
+  text-shadow: 1px 2px 1px rgb(109, 109, 109), 0 0 2px black;
+  text-decoration: underline;
+}
+
+h3 {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: Lobster;
+  text-shadow: 0.3px 0.3px 10px white, 1px 3px 2px rgb(109, 109, 109);
+}
+
+h3:hover {
+  text-shadow: 0 0 20px rgb(240, 236, 186), 1px 3px 2px rgb(158, 158, 158);
+}
+
+p {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-shadow: 0 0 0.1px rgb(109, 109, 109);
+  /* margin: 0 25px 0 25px; */
+}
+
+h6 {
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-shadow: 0 0 0.1px white;
+}
+
+main {
+  position: relative; 
+}
+
+img {
+  width: 300px; 
+  border: 1px solid black; 
+  box-shadow: 0 0 30px white; 
+}
+
+.quote {
+  position: absolute; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+}
+
+main {
+  position: relative;
+}
+
+img {
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 0 0 30px white;
+}
+
+.quote {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.quote p,
+.quote h6 {
+  color: rgb(255, 230, 0);
+  text-shadow: 2px 2px 4px grey, 2px 2px 0.5px black;
+  margin: 0 auto;
+  width: 300px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 4%;
+}
+@media (min-width: 380px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 9%;
+  }
+}
+@media (min-width: 760px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+  h6 {
+    font-size: 1.7rem;
+  }
+  img {
+    width: 600px;
+    border: 1px solid black;
+  }
+
+  .quote p,
+  .quote h6 {
+    width: 600px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 22%;
+  }
+}
+
+@media (min-width: 1020px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 2.1rem;
+  }
+  h6 {
+    font-size: 2.1rem;
+  }
+  img {
+    width: 800px;
+    border: 1px solid black;
+  }
+  .quote p,
+  .quote h6 {
+    width: 800px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 24%;
+  }
+}
+@media (min-width: 1279px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+  h6 {
+    font-size: 1.7rem;
+  }
+  img {
+    width: 500px;
+    border: 1px solid black;
+  }
+  .quote p,
+  .quote h6 {
+    width: 500px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 33%;
+  }
+}
+@media (min-width: 1979px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2.3rem;
+  }
+  h6 {
+    font-size: 2.3rem;
+  }
+  img {
+    width: 900px;
+    border: 1px solid black;
+  }
+  .quote p,
+  .quote h6 {
+    width: 900px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+  }
+}
+
+
